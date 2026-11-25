@@ -1,3 +1,4 @@
+import { NavLink } from "react-router";
 import "../App.css";
 
 
@@ -9,7 +10,7 @@ const Header = () => {
           <div className="header__brand">Movie App</div>
         </div>
         <nav className="header__nav">
-          <a href="index.html">Home / Elenco</a>
+          <NavLink to="/" >Home / Elenco</NavLink>
         </nav>
       </header>
     </>
