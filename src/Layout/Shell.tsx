@@ -9,7 +9,7 @@ const Shell = () => {
     <>
         <div className="shell">
             <Header/>
-            <main>
+            <main className='main'>
                 <Outlet/>
             </main>
         </div>
