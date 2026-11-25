@@ -4,5 +4,5 @@ export interface CardHome{
     release_date: string,
     vote_average: number,
     overview: string,
-    poster_path: string
+    poster_path: string | null
 }
